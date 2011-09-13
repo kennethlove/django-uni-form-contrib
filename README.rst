@@ -17,6 +17,8 @@ Clone the repo and copy the folder of templates that you want to use to your cur
 
     cp -r django-uni-form-contrib/twitter-bootstrap <my project>/templates/uni_form
 
+Oh, you probably won't want to include ``django-uni-form``'s media, either, so take it out of your templates.
+
 Who
 ---
 
