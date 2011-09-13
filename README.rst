@@ -5,8 +5,9 @@
 What
 ----
 
-Contributed templates for `Daniel Greenfeld <https://github.com/pydanny>`_'s awesome `django-uni-form 
-<https://github.com/pydanny/django-uni-form>`_ library. Template sets are named for the library they relate to.
+Contributed templates for `Daniel Greenfeld <https://github.com/pydanny>`_ and `Miguel Araujo <https://github.com/maraujop>`'s 
+awesome `django-uni-form <https://github.com/pydanny/django-uni-form>`_ library. Template sets are named for the library they 
+relate to.
 
 How
 ---
