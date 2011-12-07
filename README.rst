@@ -14,18 +14,18 @@ How
 
 Install:::
 
-    pip install -e git://github.com/bmihelac/django-uni-form-contrib.git@make-django-app#uni_form_contrib
+    pip install -e git://github.com/bmihelac/django-uni-form-contrib.git@make-django-app#egg=uni_form_contrib
 
 Add ``uni_form_contrib.twitter_bootstrap`` application to ``INSTALLED_APPS`` in
 settings.py **before** ``uni_form`` so django will pick this templates instead
-of ``uni_form`` templates.
+of default ``uni_form`` templates.
 
 Who
 ---
 
 Current contributors are:
 
-    * `Kenneth Love <https://github.com/kennethlove>`_.
+    * `Kenneth Love <https://github.com/kennethlove>`_
 
     * `Bojan Mihelac <https://github.com/bmihelac>`_
 
