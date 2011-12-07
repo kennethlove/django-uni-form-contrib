@@ -12,12 +12,13 @@ relate to.
 How
 ---
 
-Clone the repo and copy the folder of templates that you want to use to your current project's template folder, renaming it to 
-``uni_form``.::
+Install:::
 
-    cp -r django-uni-form-contrib/twitter-bootstrap <my project>/templates/uni_form
+    pip install -e git://github.com/bmihelac/django-uni-form-contrib.git@make-django-app#uni_form_contrib
 
-Oh, you probably won't want to include ``django-uni-form``'s media, either, so take it out of your templates.
+Add ``uni_form_contrib.twitter_bootstrap`` application to ``INSTALLED_APPS`` in
+settings.py **before** ``uni_form`` so django will pick this templates instead
+of ``uni_form`` templates.
 
 Who
 ---
@@ -25,6 +26,8 @@ Who
 Current contributors are:
 
     * `Kenneth Love <https://github.com/kennethlove>`_.
+
+    * `Bojan Mihelac <https://github.com/bmihelac>`_
 
 License
 -------
