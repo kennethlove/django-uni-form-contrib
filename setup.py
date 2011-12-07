@@ -9,8 +9,6 @@ setup(
         'README.rst')).read(),
     version="0.0.1",
     author="Kenneth Love",
-    install_requires=[
-        ],
     packages=find_packages(),
 )
 
