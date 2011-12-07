@@ -10,7 +10,6 @@ setup(
     version="0.0.1",
     author="Kenneth Love",
     install_requires=[
-        'uni-form (>0.9.0)',
         ],
     packages=find_packages(),
 )
